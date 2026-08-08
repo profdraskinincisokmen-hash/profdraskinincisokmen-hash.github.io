@@ -1,12 +1,88 @@
 [
-{"title":"Emerging Military Weapon Technologies in Outer Space","year":2022,"type":"Research Monograph","status":"Published","publisher":"SETA","topic":"Space Security","link":"https://www.setav.org/en/emerging-military-weapon-technologies-in-outer-space-seta-emerging-military-technologies-series-3"},
-{"title":"Dış Uzay Alanında Yeni Askeri Silah Teknolojileri","year":2022,"type":"Research Monograph","status":"Published","publisher":"SETA","topic":"Space Security"},
-{"title":"Institutional AI Governance in Healthcare","year":2025,"type":"Book Chapter","status":"Published","publisher":"NexGene Medical Intelligence","topic":"AI Governance","link":"https://nmi.nexgene.ai/textbook/section/institutional-ai-governance-in-healthcare/","pdf":"English AI Governance in Health sector - LAST (1).pdf"},
-{"title":"Algorithmic Power and the Epistemic Transformation of International Relations in the Age of Generative AI","year":2026,"type":"Journal Article","status":"Published","publisher":"Scientific Culture","topic":"AI & International Relations","link":"https://doi.org/10.5281/zenodo.18916594"},
-{"title":"Assessing the Effect of AI Anxiety on Turnover Intention: The Mediating Role of Quiet Quitting in Turkish SMEs","year":2025,"type":"Journal Article","status":"Published","publisher":"Behavioral Sciences","topic":"AI & Organizations","link":"https://www.mdpi.com/2076-328X/15/3/249"},
-{"title":"IAEA and Nuclear Security: An Evolutionary Perspective","year":2025,"type":"Journal Article","status":"Published","publisher":"Turkish Journal of Nuclear Sciences","topic":"Nuclear Security","link":"https://doi.org/10.59474/nuclear.2023.63"
-{"title":"Production Economics and Artificial Intelligence","year":2026,"type":"Book Chapter","status":"Forthcoming","publisher":"Forthcoming","topic":"AI Economy"},
-{"title":"Cloud Technologies and Artificial Intelligence in Enterprise Architecture: A Critical Analysis of U.S., Chinese, and European Approaches","year":2026,"type":"Book Chapter","status":"Published","publisher":"Digital Management","topic":"Cloud Computing & AI"},
-  {"title":"Frontier Geopolitics and the Future Security Architecture: Managing Technological Dependencies and National Resilience","year":2026,"type":"Conference Paper","status":"Accepted","publisher":"11th International Security Symposium, Police Academy","topic":"Frontier Geopolitics"},
-{"title":"DetectiveAI: A Multimodal, Explainable, and Big Data-Driven AI Decision Support System for Homicide Investigations","year":2026,"type":"Conference Paper","status":"Accepted","publisher":"11th International Security Symposium, Police Academy","topic":"AI & Security"}
+  {
+    "title": "Emerging Military Weapon Technologies in Outer Space",
+    "year": 2022,
+    "type": "Research Monograph",
+    "status": "Published",
+    "publisher": "SETA",
+    "topic": "Space Security",
+    "link": "https://www.setav.org/en/emerging-military-weapon-technologies-in-outer-space-seta-emerging-military-technologies-series-3"
+  },
+  {
+    "title": "Dış Uzay Alanında Yeni Askeri Silah Teknolojileri",
+    "year": 2022,
+    "type": "Research Monograph",
+    "status": "Published",
+    "publisher": "SETA",
+    "topic": "Space Security"
+  },
+  {
+    "title": "Institutional AI Governance in Healthcare",
+    "year": 2025,
+    "type": "Book Chapter",
+    "status": "Published",
+    "publisher": "NexGene Medical Intelligence",
+    "topic": "AI Governance",
+    "link": "https://nmi.nexgene.ai/textbook/section/institutional-ai-governance-in-healthcare/",
+    "pdf": "English AI Governance in Health sector - LAST (1).pdf"
+  },
+  {
+    "title": "Algorithmic Power and the Epistemic Transformation of International Relations in the Age of Generative AI",
+    "year": 2026,
+    "type": "Journal Article",
+    "status": "Published",
+    "publisher": "Scientific Culture",
+    "topic": "AI & International Relations",
+    "link": "https://doi.org/10.5281/zenodo.18916594"
+  },
+  {
+    "title": "Assessing the Effect of AI Anxiety on Turnover Intention: The Mediating Role of Quiet Quitting in Turkish SMEs",
+    "year": 2025,
+    "type": "Journal Article",
+    "status": "Published",
+    "publisher": "Behavioral Sciences",
+    "topic": "AI & Organizations",
+    "link": "https://www.mdpi.com/2076-328X/15/3/249"
+  },
+  {
+    "title": "IAEA and Nuclear Security: An Evolutionary Perspective",
+    "year": 2025,
+    "type": "Journal Article",
+    "status": "Published",
+    "publisher": "Turkish Journal of Nuclear Sciences",
+    "topic": "Nuclear Security",
+    "link": "https://doi.org/10.59474/nuclear.2023.63"
+  },
+  {
+    "title": "Production Economics and Artificial Intelligence",
+    "year": 2026,
+    "type": "Book Chapter",
+    "status": "Forthcoming",
+    "publisher": "Forthcoming",
+    "topic": "AI Economy"
+  },
+  {
+    "title": "Cloud Technologies and Artificial Intelligence in Enterprise Architecture: A Critical Analysis of U.S., Chinese, and European Approaches",
+    "year": 2026,
+    "type": "Book Chapter",
+    "status": "Published",
+    "publisher": "Digital Management",
+    "topic": "Cloud Computing & AI"
+  },
+  {
+    "title": "Frontier Geopolitics and the Future Security Architecture: Managing Technological Dependencies and National Resilience",
+    "year": 2026,
+    "type": "Conference Paper",
+    "status": "Accepted",
+    "publisher": "11th International Security Symposium, Police Academy",
+    "topic": "Frontier Geopolitics"
+  },
+  {
+    "title": "DetectiveAI: A Multimodal, Explainable, and Big Data-Driven AI Decision Support System for Homicide Investigations",
+    "year": 2026,
+    "type": "Conference Paper",
+    "status": "Accepted",
+    "publisher": "11th International Security Symposium, Police Academy",
+    "topic": "AI & Security"
+  }
 ]
