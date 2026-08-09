@@ -53,6 +53,15 @@
     "topic": "Nuclear Security",
     "link": "https://doi.org/10.59474/nuclear.2023.63"
   },
+{
+  "title": "Harnessing the Power of Space in the Ukraine Conflict: Strategic and Operational Lessons",
+  "year": 2025,
+  "type": "Conference Paper",
+  "status": "Published",
+  "publisher": "Harp Sanat — 21st Century Armed Conflicts: Changing Dynamics and Emerging Lessons, ISBN 978-625-5717-15-3",
+  "topic": "Space Security, Russia–Ukraine War, Military Space Operations",
+  "pdf": "harnessing-space-power-ukraine-2025.pdf"
+},
   {
     "title": "Production Economics and Artificial Intelligence",
     "year": 2026,
@@ -61,6 +70,7 @@
     "publisher": "Forthcoming",
     "topic": "AI Economy"
   },
+
   {
     "title": "Cloud Technologies and Artificial Intelligence in Enterprise Architecture: A Critical Analysis of U.S., Chinese, and European Approaches",
     "year": 2026,
@@ -94,14 +104,5 @@
   "publisher": "Sosyologca",
   "topic": "Hybrid Warfare",
   "link": "https://sosyologca.org/?mod=tammetin&makaleadi=&makaleurl=63d0b34e-3d6a-4064-b450-3b806e9349cd.pdf&key=94437"
-},
-{
-  "title": "Harnessing the Power of Space in the Ukraine Conflict: Strategic and Operational Lessons",
-  "year": 2025,
-  "type": "Conference Paper",
-  "status": "Published",
-  "publisher": "Harp Sanat — 21st Century Armed Conflicts: Changing Dynamics and Emerging Lessons, ISBN 978-625-5717-15-3",
-  "topic": "Space Security, Russia–Ukraine War, Military Space Operations",
-  "pdf": "harnessing-space-power-ukraine-2025.pdf"
 }
 ]
