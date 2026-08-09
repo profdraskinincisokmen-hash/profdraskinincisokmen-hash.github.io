@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AISA Research — Content Manager</title>
+</head>
+<body>
+<h1>AISA Research — Content Manager</h1>
+<p>Website content generator</p>
+
+<hr>
+
+<h2>Add Publication</h2>
+
+<label>Title</label><br>
+<input id="pub-title" type="text" style="width:600px"><br><br>
+
+<label>Year</label><br>
+<input id="pub-year" type="number" value="2026"><br><br>
+
+<label>Type</label><br>
+<select id="pub-type">
+  <option>Journal Article</option>
+  <option>Book Chapter</option>
+  <option>Research Monograph</option>
+  <option>Conference Paper</option>
+</select><br><br>
+
+<label>Status</label><br>
+<select id="pub-status">
+  <option>Published</option>
+  <option>Forthcoming</option>
+  <option>Accepted</option>
+</select><br><br>
+
+<label>Publisher / Journal</label><br>
+<input id="pub-publisher" type="text" style="width:600px"><br><br>
+
+<label>Topic</label><br>
+<input id="pub-topic" type="text" style="width:600px"><br><br>
+
+<label>Publisher Link</label><br>
+<input id="pub-link" type="text" style="width:600px"><br><br>
+
+<label>PDF filename</label><br>
+<input id="pub-pdf" type="text" style="width:600px"><br><br>
+
+<button type="button" onclick="generatePublication()">Generate Publication</button>
+
+<pre id="pub-output"></pre>
+<script>
+function generatePublication() {
+  const data = {
+    title: document.getElementById('pub-title').value.trim(),
+    year: Number(document.getElementById('pub-year').value),
+    type: document.getElementById('pub-type').value,
+    status: document.getElementById('pub-status').value,
+    publisher: document.getElementById('pub-publisher').value.trim(),
+    topic: document.getElementById('pub-topic').value.trim()
+  };
+
+  const link = document.getElementById('pub-link').value.trim();
+  const pdf = document.getElementById('pub-pdf').value.trim();
+
+  if (link) data.link = link;
+  if (pdf) data.pdf = pdf;
+
+  document.getElementById('pub-output').textContent =
+    JSON.stringify(data, null, 2) + ',';
+}
+</script>
+</body>
+</html>
