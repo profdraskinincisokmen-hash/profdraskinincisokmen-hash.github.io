@@ -49,8 +49,8 @@
 <button type="button" onclick="generatePublication()">Generate Publication</button>
 
 <pre id="pub-output"></pre>
-<script>
-function generatePublication() {
+<button type="button" onclick="copyPublication()">Copy JSON</button>
+ 
   const data = {
     title: document.getElementById('pub-title').value.trim(),
     year: Number(document.getElementById('pub-year').value),
@@ -68,6 +68,10 @@ function generatePublication() {
 
   document.getElementById('pub-output').textContent =
     JSON.stringify(data, null, 2) + ',';
+}
+function copyPublication() {
+  const text = document.getElementById('pub-output').textContent;
+  navigator.clipboard.writeText(text);
 }
 </script>
 </body>
