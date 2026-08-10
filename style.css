@@ -7,3 +7,11 @@
   display: block;
   scroll-margin-top: 100px;
 }
+#neuro-biotech-publications {
+  display: none;
+}
+
+#neuro-biotech-publications:target {
+  display: block;
+  scroll-margin-top: 100px;
+}
